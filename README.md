@@ -11,6 +11,9 @@ TLambdaRuntime.ProcessEvent() routine.
 
 # Build
 
+Note that the AWS Lambda Runtime environment is Linux on AMD64/x86-64. As such, you must compile
+using the AMD64/x86-64 FPC compiler targetting the Linux platform.
+
 Using lazbuild:
 
 ```console
